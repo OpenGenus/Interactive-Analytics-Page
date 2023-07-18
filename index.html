@@ -124,10 +124,10 @@
 
   const requestData = async function() {
     // Import data sets
-    const nyc = await d3.json("data/map.geojson");
-    const trees = await d3.csv("data/trees.csv");
-    const air = await d3.csv("data/air.csv");
-    const income = await d3.csv("data/neighborhood_income.csv");
+    const nyc = await d3.json("map.geojson");
+    const trees = await d3.csv("trees.csv");
+    const air = await d3.csv("air.csv");
+    const income = await d3.csv("neighborhood_income.csv");
 
     // Compile air quality information
     var AirDict = {};
